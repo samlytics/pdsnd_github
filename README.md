@@ -1,3 +1,6 @@
+# Programming for Data Science with Python Nanodegree Program
+Currently this is to meet the requirement for Project Three and contains only Project two detail, I will however update this to reflect my journey throughout the nanodegree.
+
 ### Date created
 01 May 2021
 
