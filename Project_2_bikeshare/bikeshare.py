@@ -8,6 +8,9 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+#Exit Funtion
+def good_bye():
+    exit()
 
 #Ask users for filter criteria
 def get_filters():
@@ -31,7 +34,7 @@ def get_filters():
                 print('\nThis city is invalid or there is no data for the City: {}. Please try again.'.format(city.title()))
             
     except KeyboardInterrupt:
-        exit()
+        good_bye()
     
     #get user input for month (all, january, february, ... , june)
     try: 
@@ -45,7 +48,7 @@ def get_filters():
              
             
     except KeyboardInterrupt:
-        exit()
+        good_bye()
     
     #get user input for day of week (all, monday, tuesday, ... sunday)
     try:
@@ -59,7 +62,7 @@ def get_filters():
                 
 
     except KeyboardInterrupt:
-        exit()
+        good_bye()
     
     #Data filter verfication with restart option
     print("\nYour selection:\n City = " + city.upper() + "\n Month = " + month.upper() + "\n Day = " + day.upper())
@@ -80,7 +83,7 @@ def get_filters():
                 
 
     except KeyboardInterrupt:
-        exit()
+        good_bye()
    
     print('-' * 40)
     print('\n')
@@ -271,11 +274,11 @@ def main():
 
             restart = input('\nWould you like to restart?\nEnter \"Y\" for Yes or \"N\" for No.\n')
             if restart.lower() != 'y':
-                exit()
+                good_bye()
                 break
 
     except KeyboardInterrupt:
-        exit()
+        good_bye()
 
 if __name__ == "__main__":
     main()
