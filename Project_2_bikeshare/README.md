@@ -16,4 +16,4 @@ In this project, you will use data provided by [Motivate](https://www.motivateco
    * washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+* [KeyboardInterrupt](https://stackoverflow.com/questions/13180941/how-to-kill-a-while-loop-with-a-keystroke)
