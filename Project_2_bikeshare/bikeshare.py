@@ -10,6 +10,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 #Exit Funtion
 def good_bye():
+    print("\nThank you for Exploring US Bikeshare Data")
     exit()
 
 #Ask users for filter criteria
